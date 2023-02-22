@@ -13,8 +13,11 @@ const generateOTP = () =>
 var el_otp = document.getElementById('otp')
 function generOtp()
 {
+     var otps = generateOTP()
      el_otp.innerHTML = generateOTP()
+     sessionStorage.setItem("otp", otps);
 }
+
 
 
 
@@ -38,6 +41,8 @@ function generateP()
 
 function pass()
 {
+     var otpass = generateP()
+     sessionStorage.setItem("pass", otpass);
      el_down.innerHTML = generateP();
 }
 
@@ -52,3 +57,31 @@ function randompass()
 }
 
 var el_up = document.getElementById("random");
+
+
+//fps
+let be = Date.now(), fps = 0, info = '';
+requestAnimationFrame(
+     function loop()
+     {
+          let now = Date.now()
+          fps = Math.round(1000 / (now - be))
+          be = now
+          requestAnimationFrame(loop)
+          if (fps < 35)
+          {
+               kFps.style.color = "red"
+               kFps.textContent = fps
+          } if (fps >= 35 && fps <= 41)
+          {
+               kFps.style.color = "deepskyblue"
+               kFps.textContent = fps + " FPS"
+          } else
+          {
+               kFps.style.color = "black"
+               kFps.textContent = fps + " FPS"
+          }
+          kpFps.value = fps;
+          info += ('' + new Date() + ' ' + fps + '\n');
+     }
+)
