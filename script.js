@@ -84,4 +84,4 @@ requestAnimationFrame(
           kpFps.value = fps;
           info += ('' + new Date() + ' ' + fps + '\n');
      }
-)
+);
