@@ -1,41 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="shortcut icon" href="https://i.pinimg.com/564x/7b/80/e3/7b80e31e8574a8800e09c0b9e3f0028b.jpg" type="image/x-icon" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="https://i.pinimg.com/564x/7b/80/e3/7b80e31e8574a8800e09c0b9e3f0028b.jpg" type="image/x-icon" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
-     <title>Project-part II</title>
-</head>
-<body>
-     <div class="text-center">
-          <h1>Hello World</h1>
-          <div class="d-flex justify-content-center">
-               <div class="spinner-border" role="status" id="loading">
-                 <span class="sr-only"></span>
-               </div>
-               <div id="job"></div>
-     </div>
+    <style>
+      body {
+        background-image: url('https://i.pinimg.com/564x/ec/a2/fd/eca2fdaeaba0cbcc9ec1030fbf60c540.jpg');
+      }
+      .btn-color {
+        background-color: #4907d87b;
+        color: #fff;
+      }
 
-     <nav aria-label="Page navigation example">
-          <ul class="pagination justify-content-center">
-            <li class="page-item">
-              <a class="page-link" href="/" tabindex="-1">Previous</a>
-            </li>
-            <li class="page-item"><a class="page-link" href="../index.html">1</a></li>
-            <li class="page-item active">
-               <span class="page-link">
-                 2
-                 <span class="sr-only"></span>
-               </span>
-             </li>
-            <li class="page-item disabled">
-              <a class="page-link" href="#">Next</a>
-            </li>
-          </ul>
-        </nav>
+      .profile-image-pic {
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+      }
 
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-</body>
+      .cardbody-color {
+        background-color: #00000000;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    </style>
+    <title>Project-part II</title>
+  </head>
+  <body>
+    <div id="project">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+            <h2 class="text-center text-dark mt-5">Login Form</h2>
+            <div class="text-center mb-5 text-dark">Made with bootstrap</div>
+            <div class="card my-5">
+              <form class="card-body cardbody-color p-lg-5">
+                <div class="text-center">
+                  <img src="https://i.pinimg.com/564x/7b/80/e3/7b80e31e8574a8800e09c0b9e3f0028b.jpg" class="img-fluid profile-image-pic img-thumbnail rounded-circle my-3" width="200px" alt="profile" />
+                </div>
+
+                <div class="mb-3">
+                  <input type="text" class="form-control" id="Username" aria-describedby="emailHelp" placeholder="User Name" />
+                </div>
+                <div class="mb-3">
+                  <input type="password" class="form-control" id="password" placeholder="password" />
+                </div>
+                <div class="text-center"><button type="submit" class="btn btn-color px-2 mb-2 w-75">Login</button></div>
+                <div class="text-center"><div class="px-1 mb-1">Or</div></div>
+                <div class="text-center"><button type="submit" class="btn btn-color px-2 mb-2 w-75">SignUp</button></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Navbar -->
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link" href="/" tabindex="-1">Previous</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="../">1</a></li>
+        <li class="page-item active">
+          <span class="page-link">
+            2
+            <span class="sr-only"></span>
+          </span>
+        </li>
+        <li class="page-item"><a class="page-link" href="../project-part2/">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="../project-part3/">Next</a>
+        </li>
+      </ul>
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
 </html>

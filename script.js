@@ -1,26 +1,5 @@
-const generateOTP = () =>
-{
-     const length = 6;
-     let otp = '';
 
-     for (let i = 0; i < length; i++)
-     {
-          otp += Math.floor(Math.random() * 10);
-     }
-     return otp;
-}
-
-var el_otp = document.getElementById('otp')
-function generOtp()
-{
-     var otps = generateOTP()
-     el_otp.innerHTML = generateOTP()
-     sessionStorage.setItem("otp", otps);
-}
-
-
-
-
+// Pass
 var el_down = document.getElementById("pass");
 function generateP()
 {
@@ -47,7 +26,30 @@ function pass()
 }
 
 
+// Otp
 
+const generateOTP = () =>
+{
+     const length = 6;
+     let otp = '';
+
+     for (let i = 0; i < length; i++)
+     {
+          otp += Math.floor(Math.random() * 10);
+     }
+     return otp;
+}
+
+var el_otp = document.getElementById('otp')
+function generOtp()
+{
+     var otps = generateOTP()
+     el_otp.innerHTML = generateOTP()
+     sessionStorage.setItem("otp", otps);
+}
+
+
+// Random
 function randompass()
 {
      el_up.innerHTML =
