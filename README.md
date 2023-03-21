@@ -10,3 +10,8 @@ Salam Kaum Turu
 Steam : hokage_813
 
 #TuruDeks
+
+
+Semua Bisa Bikin Ayo Keluarkan Gabut Kamu
+
+:>
