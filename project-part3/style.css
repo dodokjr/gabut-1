@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.ip img{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.cc {
+    color: #fff;
+    transition: 2s all;
+    -webkit-transition: 2s all;
+    -moz-transition: 2s all;
+    -ms-transition: 2s all;
+    -o-transition: 2s all;
+}
+
+
+.white{
+    color: #fff;
+}
+
+.nav-link  {
+    color: #fff;
+}
+
+.nav-link:hover{
+    color: coral;
+}
+
+.navbar-toggler{
+    border: #fff 1px;
+    background-color: #fff;
+    transition: 2s all;
+    -webkit-transition: 2s all;
+    -moz-transition: 2s all;
+    -ms-transition: 2s all;
+    -o-transition: 2s all;
+}
+
+.navbar-toggler:hover{
+    border: #544F53;
+    background-color: #544F53;
+    transition: 2s all;
+    -webkit-transition: 2s all;
+    -moz-transition: 2s all;
+    -ms-transition: 2s all;
+    -o-transition: 2s all;
+}
+
+.carousel-inner:hover{
+    color: #fff;
+    transition: 5.s all;
+    filter: blur(2px);
+    -webkit-transition: 5.s all;
+    -moz-transition: 5.s all;
+    -ms-transition: 5.s all;
+    -o-transition: 5.s all;
+    -webkit-filter: blur(2px);
+}
+
+.carousel-indicators button:hover{
+    color: #fff;
+}
+
+.card {
+    background-color: #fff;
+    transition: 5.s all;
+    -webkit-transition: 5.s all;
+    -moz-transition: 5.s all;
+    -ms-transition: 5.s all;
+    -o-transition: 5.s all;
+}
+
+.card:hover{
+    background-color: #544F53;
+    color: #fff;
+    transition: 5.s all;
+    filter: blur(0.10px);
+    -webkit-filter: blur(0.10px);
+    -webkit-transition: 5.s all;
+    -moz-transition: 5.s all;
+    -ms-transition: 5.s all;
+    -o-transition: 5.s all;
+}
+
+.btn-op {
+    color: #fff;
+    background-color: #544F53;
+    transition: 5.s all;
+    -webkit-transition: 5.s all;
+    -moz-transition: 5.s all;
+    -ms-transition: 5.s all;
+    -o-transition: 5.s all;
+}
+
+.btn-op:hover{
+    color: #1b1a1a;
+    background-color: #fff;
+    transition: 5.s all;
+    -webkit-transition: 5.s all;
+    -moz-transition: 5.s all;
+    -ms-transition: 5.s all;
+    -o-transition: 5.s all;
+}
+

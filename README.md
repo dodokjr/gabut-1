@@ -9,6 +9,9 @@
 git clone https://github.com/dodokjr/gabut-1
 ```
 
-Semua Bisa Bikin Ayo Keluarkan Gabut Kamu
+[x]project-part1
+[x]project-part2
+[x]project-part3
+[]project-part4
 
 :>
